@@ -1,0 +1,89 @@
+
+.cbody{
+	margin: 0;
+	position: relative;
+	width: 100%;
+
+}
+
+.content{
+	background-image: url(img/theme1.jpg);
+	background-attachment: fixed;
+	color: #f7f7f7;
+	height: 100vh;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	display: flex;
+	align-items: center;
+}
+
+.text{
+
+	font-family: fontt;
+	text-align: justify;
+	position: relative;
+	height: 50%;
+	width: 40%;
+	left: 30%;
+}
+
+.text p{
+	color: #d5d5d5;
+	font-size: 24px;
+}
+
+.text h1{
+	color: #d5d5d5;
+	font-size: 40px;
+}
+
+
+@media only screen and (max-width: 900px){
+
+
+.content{
+	top: 200px;
+	align-items: center;
+	display: flex;
+}
+
+
+
+.text{
+	position: relative;
+	padding: 0;
+	width: 50%;
+}
+.text p{
+	font-size: 18px;
+	
+}
+
+
+}
+
+@media only screen and (max-width: 650px){
+.content{
+	top: 200px;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	display: flex;
+}
+
+.image {
+
+	display: none;
+}
+
+.text{
+	position: relative;
+	padding: 0;
+	left: 10%;
+	width: 70%;
+}
+.text p{
+	font-size: 18px;
+	
+}
+
+}

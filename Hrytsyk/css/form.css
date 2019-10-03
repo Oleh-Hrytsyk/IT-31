@@ -1,0 +1,58 @@
+.form{
+	position: relative;
+  height: 100vh;
+  color: #f7f7f7;
+	font-size: 30px;
+	text-align: center;
+	align-items: center;
+	background-image: url(img/theme2.jpg);
+	background-attachment: fixed;
+}
+
+.form #ch_form{
+	position: absolute;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	width: 50%;
+	/*height: 60%;*/
+	top: 50%;
+	left: 50%; 
+   	transform: translate(-50%, -50%);
+   	background-color: rgba(10, 10, 10, 0.7);
+}
+.form #error{
+	font-family: fontt;
+	color: red;
+   	background-color: rgba(90, 10, 10, 0.7);
+   	margin-bottom: 20px;
+}
+
+input[type="email"], input[type="password"], input[type="tel"]{
+	width: 90%;
+	height: 50px;
+	margin-bottom: 10px;
+	background-color: #151515;
+	border-style: none;
+	color: #f7f7f7;
+	padding-left: 10px;
+	font-size: 20px;
+	}
+
+.dws-submit{
+	font-family: fontt;
+	height: 40px;
+	width: 80px;
+	padding:  5px 10px;
+	font-size: 20px;
+	border-style: none;
+	border-bottom: 4px solid #378ff2;
+	color: #378ff2;
+	background-color: #151515;
+	cursor: pointer;
+}
+
+.dws-submit:hover{
+	background-color:  #378ff2;
+	border-bottom: 4px solid #156dd0;
+	color: #151515;
+}

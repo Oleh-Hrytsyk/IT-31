@@ -1,0 +1,294 @@
+.header{
+	position: fixed;
+	height: 20%;
+	width: 100%;
+	background-color: #151515;
+	display: flex;
+	align-items: center;
+	z-index: 2;
+}
+
+@font-face{
+	font-family: fontt;
+	src: url(fontt.ttf);
+}
+
+
+
+.Logo{
+	position: absolute;
+	margin: 0;
+	left:  10%;
+	background-image: url(img/dws_logo.png);
+	background-size: 140px 140px;
+	height: 140px;
+	width: 140px;
+}
+
+.header #button1{
+	font-family: fontt;
+	position: absolute;
+	right: 40%;
+	width: 80px;
+	height: 30px;
+	font-size: 20px;
+	color: #378ff2;
+	background-color: #151515;
+	border-style: solid;
+	border-color: #378ff2;
+	border-radius: 1px;
+	cursor: pointer;
+	text-align: center;
+}
+
+.header #button1:hover{
+	background-color:  #262626;
+}
+
+.button2{
+	font-family: fontt;
+	position: absolute;
+	right: 30%;
+	width: 80px;
+	height: 30px;
+	font-size: 20px;
+	z-index: 2;
+	background-color: #151515;
+	border-style: solid;
+	border-color: #378ff2;
+	border-radius: 1px;
+	cursor: pointer;
+	text-align: center;
+
+}
+
+a{
+	text-decoration: none;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none; 
+}
+
+.menu a{
+	font-family: fontt;
+	color: #378ff2;
+
+}
+
+.menu li:hover{
+	background-color:  #262626;
+}
+
+.menu_list{
+	position: relative;
+	width: 100%;
+	height: 100%;
+
+}
+.menu_drop{
+	position: absolute;
+	width: 200px;
+	 height: 100px;
+	
+	background-color: #151515;
+	top: 999em;
+}
+
+.menu_drop li{
+	border-style: solid;
+	border-color: #378ff2;
+	border-radius: 1px;
+	background-color: #151515;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+.menu_drop:hover a{
+}
+
+.button2:hover{
+	background-color:  #262626;
+	}
+.button2:hover .menu_drop{
+	top: 100%;
+	}
+
+
+.header #button3{
+	font-family: fontt;
+	position: absolute;
+	right: 20%;
+	width: 80px;
+	height: 30px;
+	font-size: 18px;
+	color: #378ff2;
+	background-color: #151515;
+	border-style: solid;
+	border-color: #378ff2;
+	border-radius: 1px;
+	cursor: pointer;
+	text-align: center;
+}
+
+.header #button3:hover{
+	background-color:  #262626;
+}
+
+.header #button4{
+	font-family: fontt;
+	position: absolute;
+	right: 10%;
+	width: 80px;
+	height: 30px;
+	font-size: 18px;
+	color: #378ff2;
+	background-color: #151515;
+	border-style: solid;
+	border-color: #378ff2;
+	border-radius: 1px;
+	cursor: pointer;
+	text-align: center;
+}
+
+.header #button4:hover{
+background-color:  #262626;
+}
+
+.dws-submit_dark{
+	font-family: fontt;
+	position: absolute;
+	right: 50%;
+	width: 80px;
+	height: 30px;
+	font-size: 18px;
+	color: #378ff2;
+	background-color: #151515;
+	border-style: solid;
+	border-color: #378ff2;
+	border-radius: 1px;
+	cursor: pointer;
+	text-align: center;
+	display: none;
+}
+
+.dws-submit_dark:hover{
+	background-color:  #262626;
+}
+
+.dws-submit_light{
+	font-family: fontt;
+	position: absolute;
+	right: 60%;
+	width: 80px;
+	height: 30px;
+	font-size: 18px;
+	color: #378ff2;
+	background-color: #151515;
+	border-style: solid;
+	border-color: #378ff2;
+	border-radius: 1px;
+	cursor: pointer;
+	text-align: center;
+	display: block;
+}
+
+.dws-submit_light:hover{
+	background-color:  #262626;
+}
+@media only screen and (max-width: 900px){
+
+.header{
+}
+
+.Logo{
+	position: absolute;
+	left:  50%;
+	transform: translate(-50%, 0);
+	top: 0;
+	font-size: 40px;
+	height: 100px;
+	width: 100px;
+	background-size: 100px, 100px;
+	/*color: #fafafa;*/
+}
+
+.header #button1{
+	position: absolute;
+	top: 70%;
+	right: 75%;
+	width: 80px;
+}
+
+.button2{
+	position: absolute;
+	top: 70%;
+	right: 55%;
+	width: 80px;
+}
+
+.header #button3{
+	position: absolute;
+	top: 70%;
+	right: 35%;
+	width: 80px;
+}
+
+.header #button4{
+	position: absolute;
+	top: 70%;
+	right: 15%;
+	width: 80px;
+}
+}
+
+@media only screen and (max-width: 650px){
+.header{
+	height: 150px;
+}
+
+.Logo{
+	position: absolute;
+	top: 5%;
+	
+}
+
+.header #button1{
+	position: absolute;
+	top: 75%;
+	right: 75%;
+	width: 25%;
+	height: 25%;
+	font-size: 24px;
+}
+
+.button2{
+	position: absolute;
+	top: 75%;
+	right: 50%;
+	width: 25%;
+	height: 25%;
+	font-size: 24px;
+}
+
+.header #button3{
+	position: absolute;
+	top: 75%;
+	right: 25%;
+	width: 25%;
+	height: 25%;
+	font-size: 24px;
+}
+
+.header #button4{
+	position: absolute;
+	top: 75%;
+	right: 0%;
+	width: 25%;
+	height: 25%;
+	font-size: 24px;
+}
+}
