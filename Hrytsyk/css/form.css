@@ -5,8 +5,12 @@
 	font-size: 30px;
 	text-align: center;
 	align-items: center;
-	background-image: url(img/theme2.jpg);
+	
 	background-attachment: fixed;
+}
+
+#form{
+	background-image: url(img/theme2.jpg);
 }
 
 .form #ch_form{
